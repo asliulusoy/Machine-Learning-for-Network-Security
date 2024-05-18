@@ -19,6 +19,8 @@ This repository contains code for implementing machine learning techniques for n
 
 **Applying Data Mining Techniques:** In this section, a machine learning model (K-Nearest Neighbors) is trained and evaluated using the preprocessed data. The dataset is split into training and testing sets, features are scaled, and the KNN model is trained. Evaluation metrics such as accuracy score, classification report, and confusion matrix are computed to assess the model's performance.
 
+@todo: neden bu modeli seçtiğimizi anlat.
+
 ### Data Preprocessing
 The purpose of this section is to prepare the dataset for further analysis and modeling by handling missing values, removing duplicates, and performing feature selection.
 ```
