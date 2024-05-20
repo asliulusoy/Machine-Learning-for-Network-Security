@@ -2,16 +2,34 @@
 
 ## How to Run?
 
-* mid.ipynb: Jupyter Notebook containing the Python code.
+* CICIDS2017.ipynb: Jupyter Notebook containing the Python code.
 * README.md: Documentation file providing an overview of the project and instructions on running the code.
-
+   
 To run the code, follow these steps:
 
-@todo: nasıl çalıştıracağını açıkla
+1. First, download the dataset from: https://www.kaggle.com/datasets/cicdataset/cicids2017/data
 
+2. Update the path to where you downloaded the dataset.
+```
+# Directory containing the CSV files
+directory = 'C:/Users/example/example/MachineLearningCVE'
+```
+
+
+3. You should be able to see the CSV files below when this code runs.
+```
+# Get a list of all files in the directory
+files = os.listdir(directory)
+files
+```
+4. And finally, you should install the necessary libraries.
 
 ## Overview
 This repository contains code for implementing machine learning techniques for network security using Python. The code is organized into different sections for data preprocessing, exploratory data analysis (EDA), and applying data mining techniques. It leverages popular libraries such as pandas, scikit-learn, matplotlib, and seaborn.
+
+**Dataset**
+
+The CICIDS2017 dataset used in this project contains network traffic data for security analysis. It includes various features related to network traffic, such as packet length, flow packets, and labels indicating different types of network attacks.
 
 **Data Preprocessing:**
 
@@ -52,13 +70,6 @@ In this section, a machine learning model (K-Nearest Neighbors) is trained and e
 17. **Train and Evaluate Random Forest Model**
 18. **Train and Evaluate Naive Bayes Model**
 19. **Display Unique Labels and Model Accuracies**
-
-
-## Requirements
-@todo:requirements.txt oluştur ve buraya dahil et.
-
-## Dataset
-The dataset used in this project contains network traffic data for security analysis. It includes various features related to network traffic, such as packet length, flow packets, and labels indicating different types of network attacks.
 
 ## Contributors
 @asliulusoy asligizemulusoy@gmail.com
