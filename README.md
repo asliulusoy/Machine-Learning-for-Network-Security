@@ -63,6 +63,6 @@ The dataset used in this project contains network traffic data for security anal
 ## Contributors
 @asliulusoy asligizemulusoy@gmail.com
 
-@emreyd
+@emreyd emreyildizh@gmail.com
 
 @Berkayalpay berkayalpay08@gmail.com
