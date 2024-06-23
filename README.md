@@ -72,8 +72,8 @@ In this section, a machine learning model (K-Nearest Neighbors) is trained and e
 19. **Display Unique Labels and Model Accuracies**
 
 ## Contributors
-@asliulusoy asligizemulusoy@gmail.com
+@asliulusoy
 
-@emreyd emreyildizh@gmail.com
+@emreyd
 
-@Berkayalpay berkayalpay08@gmail.com
+@BerkayalpaY
